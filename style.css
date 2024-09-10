@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    place-items: center;
+    gap:20px;
+    background-color: black;
+    color: white;
+    width:100%;
+    height: 50px;
+    position: fixed;
+    top:0;
+
+}
+.logo{
+    padding-left: 10px;
+}
+.home:hover{
+    background-color: gray;
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+
+.one{
+    margin-left: 1150px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.main>.section1{
+    width: 70%;
+    padding: 20px;
+    background-image:linear-gradient(to right, yellow,red);
+}
+.main>.section2{
+    width: 30%;
+    padding: 20px;
+    background-image :radial-gradient(red,aqua)
+}
+
+.images2{
+    display: flex;
+    gap: 20px;
+    
+}
+.image11{
+    border: 2px solid black;
+}
+.image12{
+    border: 2px solid black;
+}
+.image13{
+    border: 2px solid black;
+}
+button{
+    
+    
+    
+    width:100%;
+    background-color: black;
+    color: white;
+}
+button:hover{
+    background-color: rgb(90,90,90);
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
